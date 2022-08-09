@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-// import { Search } from './Search';
+
 import { Results } from './Results';
 
 export const Routers = () => {

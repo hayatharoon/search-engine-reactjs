@@ -36,7 +36,16 @@ export const Results = () => {
         </div>
       );
     case '/images':
-      return 'At the Image Page';
+      return (
+        <div className='flex flex-wrap justify-center items-center'>
+          {results?.image_results?.map(({ image, link: { href, title } }, index) => (
+            <a href={href} target='_blank' key={index} rel='noreferrer' className='sm:p-3 p-5'>
+              <img src={image?.src} alt={title} loading='lazy' />
+              <p className='sm:w-36 w-36 break-words text-sm mt-2'>{title}</p>
+            </a>
+          ))}
+        </div>
+      );
     case '/videos':
       return 'You are at Videos page';
     default:
