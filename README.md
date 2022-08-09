@@ -1,9 +1,15 @@
-# Search Engine:
+# Search Engine-Reactjs-App:
 
-- If we import `const` then we have to use curly braces {} like `import {Header} from '/components/Header'`
-- Dependencies: react-router-dom, react-player, react-loader-spinner, use-debounce.
-- React Router Dom V6 pass array to path
-- What is the alternative for Redirect in react-router-dom v 6.0.0?
-- useContext Hook.
+Create a Reactjs App which is completely build on the top of `Google Search API`. The ability of this app is to search up-to-date results.And Very helpful project to grab the complete idea of Call and manage APIs with Fetch method and then render the data on our website.
+
+### Website View: ![Click Here]()
+
+**The things I learned during create this App:**
+
+- Installation and Design Modern UI with CSS Framework Tailwind CSS.
+- How to Call APIs from `Fetch` and `Axios` method and then render the upcoming data on our website.
 - Implementation of Dark and Light Mode.
-- Google Search API.
+- Working with `React-router-dom` library.
+- useContext Hook Implementation.
+- `react-loader-spinner` and `usedebounce` funtionalities.
+- And Finally how to deploy the `Reactjs` Project Manually on Netlify.
